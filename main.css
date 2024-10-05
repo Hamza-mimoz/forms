@@ -1,0 +1,134 @@
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+    
+}
+
+
+.project{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 800px;
+    margin-left: 20%;
+
+}
+
+.image{ 
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    width: 30%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{ 
+    width: 100%;
+    height: 150px;
+    
+    opacity: 0.5;
+    font-family: verdana , sans-serif;
+    text-align: center;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.evian{ 
+    font-family: georgia , sans-serif;
+    padding: 5%;
+    margin-top: 7%;
+    height: 30%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.evian h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 0%;
+    
+}
+.evian h3 { 
+    color: black;
+    text-align: center;
+    margin-top: 0%;
+ }
+
+.form{ 
+    
+    background-color: white;
+    width: 70%;
+    height: 800px;
+    
+}
+
+form div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 5%;
+    font-style: italic;
+    font-family: Times , sans-serif;
+    font-size: small;
+}
+form { 
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 5%;
+}
+
+form input{ 
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+    border-style: double;
+    border-color: #4d4d4d;
+}
+
+form input:focus{
+    border-color: blue;
+    box-shadow: 0px 0px 5px 2px blue;
+}
+
+
+
+ button{ 
+    margin: 5%;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    border-style: double;
+    background-color: #596D48;
+    border-color: #596D48;
+    color: white;
+ }
+
+
+button:hover{ 
+    background-color: #606859;
+    border-color: #606859;
+}
+
+button:active{ 
+    background-color: white;
+    border-color: white;
+    color: #596D48;
+
+}
+input:user-invalid {
+    border: 2px solid red;
+  }
+  
+  input:user-invalid + span::before {
+    content: "✖";
+    color: red;
+  }
+
+
+  .last{ 
+    margin-top: 0%;
+    margin-left: 4%;
+  }
